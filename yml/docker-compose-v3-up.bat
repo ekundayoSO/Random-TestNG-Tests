@@ -1,0 +1,1 @@
+docker-compose -f docker-compose-v3.yml up --scale chrome=3 --scale firefox=3 --scale edge=3
