@@ -19,7 +19,7 @@ import static org.openqa.selenium.Keys.RETURN;
 public class AddToCartTest extends Base {
     public String randomEmail;
 
-    @Test
+    @Test(priority = 1)
     public void registrationAndAddItemsToCart() throws InterruptedException {
 
         driver.get("https://demowebshop.tricentis.com/");

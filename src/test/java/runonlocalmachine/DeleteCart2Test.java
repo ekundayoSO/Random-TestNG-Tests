@@ -14,7 +14,7 @@ import java.util.List;
 public class DeleteCart2Test {
     public WebDriver driver;
 
-    @Test
+    @Test(priority = 4)
     public void deleteItems() {
 
         WebDriverManager.chromedriver().setup();

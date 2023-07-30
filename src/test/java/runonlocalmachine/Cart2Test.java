@@ -18,7 +18,7 @@ import static org.openqa.selenium.Keys.RETURN;
 public class Cart2Test {
     public WebDriver driver;
 
-    @Test
+    @Test(priority = 3)
     public void registrationAndAddItemsToCart() throws InterruptedException {
 
         WebDriverManager.firefoxdriver().setup();

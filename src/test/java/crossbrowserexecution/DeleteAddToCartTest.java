@@ -16,7 +16,7 @@ import java.util.List;
 public class DeleteAddToCartTest extends Base {
 public String randomEmail;
 
-    @Test
+    @Test(priority = 2)
     public void deleteItems() {
 
         //Login

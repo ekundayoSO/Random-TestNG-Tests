@@ -17,7 +17,7 @@ import static org.openqa.selenium.Keys.RETURN;
 
 public class CartTest extends Base {
 
-    @Test
+    @Test(priority = 3)
     public void registrationAndAddItemsToCart() throws InterruptedException {
 
         driver.get("https://demowebshop.tricentis.com/");

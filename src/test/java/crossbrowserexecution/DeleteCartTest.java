@@ -13,7 +13,7 @@ import java.util.List;
 
 public class DeleteCartTest extends Base {
 
-    @Test
+    @Test(priority = 4)
     public void deleteItems() {
 
         //Login
